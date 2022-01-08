@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Dosis;
+  src: url(./fonts/Dosis/static/Dosis-Regular.ttf);
+  src: url(./fonts/Dosis/static/Dosis-Regular.woff2) format('woff2'),
+    url(./fonts/Dosis/static/Dosis-Regular.woff) format('woff'),
+    url(./fonts/Dosis/static/Dosis-Regular.eot) format('eot'),
+}
+@font-face {
+  font-family: DosisB;
+  src: url(./fonts/Dosis/static/Dosis-ExtraBold.ttf);
+  src: url(./fonts/Dosis/static/Dosis-ExtraBold.woff2) format('woff2'),
+    url(./fonts/Dosis/static/Dosis-ExtraBold.woff) format('woff'),
+    url(./fonts/Dosis/static/Dosis-ExtraBold.eot) format('eot'),
+}
+body {
+  font-family: 'Dosis', serif;
+}
+@media screen and (min-width: 900px) {
+  .carousel-item img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+    .c-arrow{
+      display: none;
+    }
+}
+@media (max-width: 768px) and (min-width:540px){
+    .col-md-6 {
+        flex: 0 0 auto;
+       width: 50%;
+    }
+    .hours {
+        order: 2;
+    }
+    .project {
+        order: 1;
+    }
+    .c-box {
+        height: 400px;
+    }
+    .circles{
+        height: 300px;
+
+    }
+ 
+}
+.c-text {
+  padding-bottom: 120px;
+  bottom: 0px;
+  left: 120px;
+}
+.bootcamp {
+  font-family: 'DosisB', serif;
+  opacity: 0.5;
+}
+h1 {
+  font-family: 'DosisB', serif;
+}
+.border-top {
+  width: 60px;
+}
+.c-icones i {
+  font-size: 40px;
+  color: rgb(153, 153, 153);
+}
+
+.c-box span {
+  font-size: 50px;
+}
+.c-box p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.rounded-circle {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(78, 78, 78);
+  transform: rotateY(180deg);
+}
+.east {
+  color: gray;
+  font-size: 50px;
+}
+.c-i {
+  font-size: 35px;
+  color: white;
+}
+.thecircle {
+  width: 40px;
+  height: 40px;
+  background-color: #ffc400;
+  padding: 3px 0;
+}
+.c-link a{
+    text-decoration: none;
+}
+.card2{
+  width: 100%;
+  height: auto;
+}
+.img-card2{
+  width: 400px;
+  height: 350px;
+}
+.par::before{
+  content:"\2713";
+  color: #ffc400;
+  font-weight: bold;
+}
+.c-circls{
+  width: 35px;
+  height: 35px;
+  transform: rotatex(360deg);
+}
+.c-footer{
+  width: 100%;
+  height: 100px;
+}
+.footer-c{
+  background-color: rgb(61, 61, 61);
+}
